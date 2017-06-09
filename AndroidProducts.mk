@@ -13,5 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_f8131.mk \
-                     $(LOCAL_DIR)/aosp_f8132.mk
+                     $(LOCAL_DIR)/aosp_f8132.mk \
+                     $(LOCAL_DIR)/carbon_dora.mk \
+                     $(LOCAL_DIR)/carbon_dora_dsds.mk
 
