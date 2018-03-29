@@ -71,17 +71,9 @@ PRODUCT_PACKAGES += \
     init.recovery.dora \
     init.dora
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.dora
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.dora
-
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprint.dora
 
 # NFC config
 PRODUCT_PACKAGES += \
