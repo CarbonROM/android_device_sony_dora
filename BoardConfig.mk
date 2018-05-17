@@ -16,9 +16,9 @@ include device/sony/tone-common/PlatformConfigCarbon.mk
 include device/sony/tone-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
-ifneq (,$(filter %f8131,$(TARGET_PRODUCT)))
+ifneq (,$(filter %dora,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := F8131
-else ifneq (,$(filter %f8132,$(TARGET_PRODUCT)))
+else ifneq (,$(filter %dora_dual,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := F8132
 else
 $(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
