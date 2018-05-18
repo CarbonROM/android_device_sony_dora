@@ -21,7 +21,8 @@ TARGET_BOOTLOADER_BOARD_NAME := F8131
 else ifneq (,$(filter %dora_dual,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := F8132
 else
-$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+TARGET_BOOTLOADER_BOARD_NAME := F8131
+$(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
 # Platform
